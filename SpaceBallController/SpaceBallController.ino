@@ -42,7 +42,7 @@ int cycle = 0; //ensures the servos only initiate once
 SoftwareSerial OpenLog(2, 3); // RX, TX
 //SoftwareSerial ssIridium(4, 5); // RockBLOCK serial port on 4/5 (RX, TX)
 //IridiumSBD isbd(ssIridium, 6);   // RockBLOCK SLEEP pin on 10
-Servo servo1;
+Servo servo1;  //looks like the servo library didn't take. servos aren't defined here
 Servo servo2;  
 
 void setup() {
